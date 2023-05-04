@@ -3,7 +3,7 @@ using Infrastructure;
 using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
-//Connection stringi kendinize göre değiştirip PMC'den update-database komutunu çalıştırarak kullanmaya başlayabilirsiniz
+//appsettings dosyasında connection stringi kendinize göre değiştirip PMC'den update-database komutunu çalıştırarak kullanmaya başlayabilirsiniz
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
