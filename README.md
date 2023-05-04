@@ -1,3 +1,3 @@
-Onion Architecture
-EF Core
-MediatR
+-Onion Architecture
+-EF Core
+-MediatR
